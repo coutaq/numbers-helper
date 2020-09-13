@@ -20,7 +20,7 @@ namespace NumbersHelper
         static int convertFromDecimal(int num, int divisor)
         {
             if(num > divisor)
-            {
+            { 
                 int answer = num / divisor;
                 int remainder = num % divisor;
                 printFormattedNums(num, answer, divisor, remainder);
